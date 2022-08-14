@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="UTF-8" />
+    <link href="styles.css" rel="stylesheet" />
+    <title>Web Developer Application Form</title>
+  </head>
+
+  <body>
+    <div>
+      <h1 id="title">Web Developer Application Form</h1>
+      <p id="description">Please complete the form below to apply for a position with us.</p>
+
+      <form id="survey-form" action="https://register-demo.freecodecamp.org">
+        <fieldset id="personal-info">
+          <label id="name-label">Name: <input id="name" type="text" required placeholder="Enter your name" /></label>
+          <label id="email-label">Email: <input id="email" type="email" required pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" placeholder="Enter your email"/></label>
+          <label id="major-label">Major: <input id="major" type="text" required placeholder="Enter your college major"/></label>
+          <label id="graduation-label">Year of Graduation: <input id="graduation" type="number" required placeholder="Enter your graduation year"/></label>
+        </fieldset>
+        <fieldset id="job-info">
+          <label
+            >What position do you want to apply?
+            <select name="referrer">
+              <option value="">(select one)</option>
+              <option value="1">Front End Developer</option>
+              <option value="2">Back End Developer</option>
+              <option value="3">Full Stack Developer</option>
+            </select>
+          </label>
+        <fieldset>
+          <label>
+            Mention Your Skills:
+            <label> <input type="checkbox" name="skill" class="inline" value="html"/> HTML 5</label>
+            <label> <input type="checkbox" name="skill" class="inline" value="css"/> CSS</label>
+            <label> <input type="checkbox" name="skill" class="inline" value="js"/> JavaScript</label>
+            <label> <input type="checkbox" name="skill" class="inline" value="bootstrap"/> Bootstrap</label>
+            <label> <input type="checkbox" name="skill" class="inline" value="reactjs"/> ReactJS</label>
+            <label> <input type="checkbox" name="skill" class="inline" value="php"/> PHP</label>
+            <label> <input type="checkbox" name="skill" class="inline" value="python"/> Python</label>
+            <label> <input type="checkbox" name="skill" class="inline" value="mysql"/> MySQL</label>
+          </label>
+        </fieldset>
+        <fieldset>
+          <label
+            >What do you prefer?
+            <label><input type="radio" name="environment" class="inline" value="wfh"/> Work From Home</label>
+            <label><input type="radio" name="environment" class="inline" value="wfo"/> Work From Office</label>
+          </label>
+        </fieldset>
+        <fieldset id="portfolio-info">
+          <label id="github-label">Github Profile: <input id="github" type="text" required placeholder="Enter your github profile link"/></label>
+          <label id="cv">Attach Your CV Here <input type="file" class="inline"/> </label>
+        </fieldset>
+        <fieldset>
+          <label
+            >Your Bio in Less than 50 words:
+            <textarea name="bio" rows="5" cols="30" placeholder="I am a smart web developer..." maxlength="50"></textarea>
+          </label>
+        </fieldset>
+        <label> <input type="checkbox" name="terms" class="inline" required /> I accept the <a href="https://www.freecodecamp.org/news/terms-of-service/">terms and conditions</a> </label>
+        <input type="submit" value="Submit" />
+      </form>
+    </div>
+    <!-- Footer -->
+    <footer>
+      <p>Created with love by <a href="https://www.linkedin.com/inijal-ghodi-742b411b3/" class="text-black fw-bold"> Rijal Ghodi</a></p>
+    </footer>
+    <!-- End of footer -->
+  </body>
+      
+</html>

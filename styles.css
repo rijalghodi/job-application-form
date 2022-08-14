@@ -1,0 +1,108 @@
+h1,
+p {
+  text-align: center;
+  margin: 1em 1em;
+}
+
+h1 {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+label {
+  display: block;
+  margin: 0.5rem 0;
+}
+
+body {
+  width: 100%;
+  height: 120vh;
+  margin: 0;
+  background-color: purple;
+  background-image: url(https://images.unsplash.com/photo-1595327656903-2f54e37ce09b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=435&q=80);
+  color: #f0e3ca;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 20px;
+}
+
+div {
+  width: 80%;
+  background-color: #1b1a17;
+  opacity: 0.9;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 10px;
+}
+
+form {
+  width: 60vw;
+  max-width: 500px;
+  min-width: 300px;
+  margin: 0 auto;
+  padding-bottom: 2em;
+}
+
+input,
+textarea,
+select {
+  margin: 10px 0 0 0;
+  width: 100%;
+  min-height: 2em;
+  margin-bottom: 8px;
+  font-size: 16px;
+}
+
+input[type="submit"] {
+  display: block;
+  width: 60%;
+  margin: 1em auto;
+  height: 2em;
+  font-size: 20px;
+  background-color: #e9dac1;
+  border-color: white;
+  min-width: 300px;
+}
+
+.inline {
+  width: unset;
+  margin: 0 0.5em 0 0;
+  vertical-align: middle;
+}
+
+.check:checked {
+  color: #ff8303;
+  background-color: #ff8303;
+}
+
+fieldset {
+  border: none;
+  padding: 1rem 0;
+}
+
+input,
+textarea {
+  border: 1px solid #787a91;
+  padding: 0 8px;
+}
+
+a {
+  color: #f0e3ca;
+}
+
+a:hover {
+  color: #ff8303;
+}
+
+a:active {
+  color: #ff8303;
+}
+
+textarea {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 20px;
+}
+
+footer {
+  margin-bottom: 20x;
+}
